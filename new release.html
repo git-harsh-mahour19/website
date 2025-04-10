@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>new released</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+     <!-- Header -->
+     <header>
+        <div class="logo">logo</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Books</a></li>
+                <li><a href="new release.html">New Releases</a></li>
+                <li><a href="#">Authors</a></li>
+            </ul>
+        </nav>
+
+        <div class="search-bar">
+            <input type="text" placeholder="Search for books, authors..." />
+            <i class="fas fa-search"></i>
+        </div>
+
+        <div class="icons">
+            <div class="icon"><i class="far fa-user"></i></div>
+            <div class="icon"><i class="far fa-heart"></i><span class="badge">3</span></div>
+            <div class="icon"><i class="fas fa-shopping-cart"></i><span class="badge">2</span></div>
+        </div>
+    </header>
+    <section class="new-releases">
+        <div class="header">
+            <h2>New Releases</h2>
+            <p>Discover the latest additions to our collection</p>
+            <a href="#" class="back-link">← Back to Homepage</a>
+        </div>
+
+        <div class="filters">
+            <select>
+                <option>Genre</option>
+            </select>
+            <select>
+                <option>Author</option>
+            </select>
+            <select>
+                <option>Publication Date</option>
+            </select>
+            <select>
+                <option>Price Range</option>
+            </select>
+            <button class="clear">Clear All</button>
+
+            <div class="sort">
+                <label for="sort">Sort by:</label>
+                <select id="sort">
+                    <option>Newest First</option>
+                    <option>Price: Low to High</option>
+                    <option>Price: High to Low</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="active-filters">
+            <span>Genre: Fiction</span>
+            <span>Publication: Last 30 days</span>
+            <span>Price: $10 - $30</span>
+        </div>
+
+        <div class="book-grid">
+            <div class="book-card">
+                <img src="th (1).jpg"
+                    alt="The Midnight Library" />
+                <div class="book-info">
+                    <h4>The Midnight Library</h4>
+                    <p>Matt Haig</p>
+                    <div class="rating">⭐ 4.5 (128)</div>
+                    <div class="price-tag">
+                        <span>$18.99</span>
+                        <span class="new-label">New</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="book-card">
+                <img src="th (2).jpg" alt="Klara and the Sun" />
+                <div class="book-info">
+                    <h4>Klara and the Sun</h4>
+                    <p>Kazuo Ishiguro</p>
+                    <div class="rating">⭐ 4.3 (96)</div>
+                    <div class="price-tag">
+                        <span>$22.99</span>
+                        <span class="new-label">New</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="book-card">
+                <img src="th (3).jpg" alt="Project Hail Mary" />
+                <div class="book-info">
+                    <h4>Project Hail Mary</h4>
+                    <p>Andy Weir</p>
+                    <div class="rating">⭐ 4.8 (215)</div>
+                    <div class="price-tag">
+                        <span>$24.99</span>
+                        <span class="new-label">New</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="book-card">
+                <img src="th.jpg" alt="The Four Winds" />
+                <div class="book-info">
+                    <h4>The Four Winds</h4>
+                    <p>Kristin Hannah</p>
+                    <div class="rating">⭐ 4.6 (178)</div>
+                    <div class="price-tag">
+                        <span>$19.99</span>
+                        <span class="new-label">New</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pagination-wrapper">
+            <div class="book-count">Showing 1–12 of 48 books</div>
+
+            <div class="pagination">
+                <button>&lt;</button>
+                <button class="active">1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>4</button>
+                <button>&gt;</button>
+            </div>
+
+            <div class="show-count">
+                <label for="items-per-page">Show:</label>
+                <select id="items-per-page">
+                    <option>12</option>
+                    <option selected>24</option>
+                    <option>36</option>
+                    <option>48</option>
+                </select>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- footer -->
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-col brand">
+            <h2 class="logo">logo</h2>
+            <p>Your destination for quality books and literary treasures since 2010.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-x-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-pinterest-p"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Books</a></li>
+                <li><a href="#">New Releases</a></li>
+                <li><a href="#">Bestsellers</a></li>
+                <li><a href="#">Coming Soon</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h3>Customer Service</h3>
+            <ul>
+                <li><a href="#">My Account</a></li>
+                <li><a href="#">Track Order</a></li>
+                <li><a href="#">Shipping Policy</a></li>
+                <li><a href="#">Returns & Refunds</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col contact">
+            <h3>Contact Us</h3>
+            <ul>
+                <li><i class="fas fa-map-marker-alt"></i> Lorem ipsum dolor sit amet consectetur,</li>
+                <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                <li><i class="fas fa-envelope"></i> support@bookhaven.com</li>
+                <li><i class="fas fa-clock"></i> Mon–Fri: 9AM–6PM, Sat: 10AM–4PM</li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>© 2025 BookHaven. All rights reserved.</p>
+        <div class="payment-icons">
+            <i class="fab fa-cc-visa"></i>
+            <i class="fab fa-cc-mastercard"></i>
+            <i class="fab fa-cc-paypal"></i>
+            <i class="fab fa-cc-apple-pay"></i>
+            <i class="fab fa-amazon-pay"></i>
+        </div>
+    </div>
+</footer>
+</body>
+
+</html>
